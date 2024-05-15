@@ -1,0 +1,56 @@
+.login{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 505px;
+    background-color: #f1f7fe;
+    border-radius: 10px;
+
+    position: relative;
+}
+.login.left{
+    justify-content: flex-start;
+}
+.login.right{
+    justify-content: flex-end;
+}
+
+.loginStudent, .loginTeacher{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 505px;
+    width: 400px;
+}
+.loginStudent .form, .loginTeacher .form{
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginStudent .form p, .loginTeacher .form p{
+    margin: 10px 0px 2px 0px;
+    font-size: 16px;
+}
+
+.blueBlock{
+    height: 505px;
+    width: 400px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3e4684;
+    border-radius: 10px;
+    position: absolute;
+}
+.blueBlock h1{
+    color: white;
+    margin-top: 200px;
+}
+.blueBlock .blueButton{
+    margin-top: 170px;
+}

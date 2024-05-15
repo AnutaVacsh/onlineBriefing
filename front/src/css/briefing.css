@@ -1,0 +1,150 @@
+.briefing{
+    width: 1100px;
+    margin-left: 30px;
+}
+.addBriefing{
+    width: 58px;
+    height: 58px;
+    background: url(../img/add.png);
+}
+.addBriefing:hover{
+    width: 58px;
+    height: 58px;
+    background: url(../img/addActive.png);
+    cursor: pointer;
+}
+.elThemes{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 50px;
+    border-bottom: 1px solid hsl(233, 100%, 30%);
+    align-items: center;
+}
+.elThemes:hover, .elThemesUntest:hover{
+    border-radius: 10px;
+    background-color: #F1F7FE;
+}
+.elThemes div{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.elThemes .changeState:hover{
+    color: #001198;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.InsideBriefing{
+    margin-left: 30px;
+    width: 1100px;
+}
+.InsideBriefing .line{
+    display: flex;
+    width: 1100px;
+}
+.InsideBriefing .line div{
+    margin-left: 10px;
+    flex-grow: 1;
+    border-bottom: 1px solid #001198;
+}
+.InsideBriefing .form{
+    margin-top: 50px;
+    display: flex;
+    border-bottom: 1px solid #001198;
+    padding-bottom: 50px;
+}
+.InsideBriefing .form div{
+    display: flex;
+    margin-right: 50px;
+}
+.InsideBriefing .form input, .InsideBriefing .form select{
+    margin-left: 20px;
+}
+ .InsideBriefing .elStudent{
+    display: flex;
+    width: 550px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+ }
+ .listSudentInsideBriefing{
+    margin-top: 50px;
+ }
+ .InsideBriefing .elStudent:hover{
+    background-color: #F1F7FE;
+    border-radius: 10px;
+}
+ .InsideBriefing .elStudent .prosent{
+    font-weight: bold;
+}
+.elThemesUntest{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    height: 50px;
+    align-items: center;
+}
+.untestedBriefing{
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+.untestedBriefing .l{
+    width: 1100px;
+    height: 10px;
+    border-bottom: 1px solid #001198;
+}
+
+.untestedBriefing .mark{
+    display: flex;
+}
+.untestedBriefing .mark p{
+    margin-right: 10px;
+}
+.untestedBriefing .elQuestionCheck{
+    margin-top: 20px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.untestedBriefing .elQuestionCheck .answer{
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    background-color: #F1F7FE;
+    border-radius: 10px;
+}
+.untestedBriefing .blueButton{
+    margin-top: 50px;
+    width: 1100px;
+    display: flex;
+    justify-content: flex-end;
+}
+.untestedBriefing .blueButton a{
+    width: 150px;
+    padding: 10px 10px;
+}
+.statistics{
+    margin-left: 30px;
+}
+.statistics .form{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.statistics .form div{
+    display: flex;
+}
+.statistics .form div p{
+    margin-right: 20px;
+}
+.statistics .elStudent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1100px;
+    height: 50px;
+}

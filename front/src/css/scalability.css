@@ -1,0 +1,21 @@
+@media only screen and (max-width: 768px) {
+    .element {
+        
+        transform: scale(0.8); 
+        
+    }
+}
+@media only screen and (max-width: 768px) {
+    .loginTeacher {
+        display: none;
+    }
+
+    .loginStudent{
+        display: none;
+    }
+    .briefingSt .elBriefing {
+        
+        display: block;
+        
+    }
+}

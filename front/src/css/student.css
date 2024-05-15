@@ -1,0 +1,335 @@
+article.student, article.teacher{
+    display: flex;
+}
+article.student .blueNavPanel, .teacher .blueNavPanel{
+    width: 215px;
+    height: 1000px;
+    background-color: #3e4684;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+article.student .blueNavPanel.close, .teacher .blueNavPanel.close{
+    display: none;
+}
+.blueNavPanel .profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 215px;
+}
+.blueNavPanel img{
+    margin: 0px 20px 0px 10px;
+}
+.blueNavPanel p{
+    display: inline;
+    color: white;
+}
+.blueNavPanel nav{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.blueNavPanel a{
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 5px;
+}
+.blueNavPanel a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.blueNavPanel a.active{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.briefingSt, .briefingT{
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search{
+    margin-top: 20px;
+    width: 600px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+.listBriefing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.briefingSt .elBriefing, .briefingT .elBriefing{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #f1f7fe;
+    border-radius: 20px;
+    position: relative;
+}
+.briefingSt .elBriefing:hover, .briefingT .elBriefing:hover{
+    background-color: white;
+}
+.briefingSt .elBriefing .prosent, .briefingT .elBriefing .prosent{
+    font-size: 36px;
+    font-weight: bolder;
+    display: inline;
+    position: absolute;
+    margin: 0px;
+    right: 20px;
+    bottom: 10px;
+}
+.briefingSt .elBriefing .title, .briefingT .elBriefing .title{
+    width: 300px;
+    display: block;
+}
+
+.briefingT p{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #3e4684;
+}
+
+.elInput{
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+    margin-left: 40px;
+    border-color:#3e4684;
+    background-color: #f1f7fe;
+    border-radius: 20px;
+    outline: none;
+
+}
+
+.news .elBriefing{
+    width: 600px;
+    height: 100px;
+    padding: 20px;
+    margin: 40px;
+    background-color: #f1f7fe;
+    border-radius: 20px;
+
+}
+.news .text{
+    display: block; 
+    
+}
+.news .listBriefing {
+    display: inline; 
+    
+}
+.news .title{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_pr{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-size: 29px;
+    font-weight: bold;
+}
+.header_pr{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.line{
+    flex: 1;
+    height: 1px;
+    background-color:#3E4684;
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-right: 0;
+    border: none;
+}
+
+
+.subject_tr td {
+    width: 500px;
+    text-align: right;
+}
+th, .table-container p {
+    width: 300px;
+    text-align: left;
+    font-weight: normal;
+}
+
+tbody{
+    text-align: center;
+}
+.table-container th, .table-container td{
+    border-bottom:1px solid #3E4684;
+    padding: 20px;
+}
+.table-container p{
+    margin-left: 50px;
+}
+
+
+.search_sub{
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+}
+
+.diagr{
+    margin: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.elThemesSt{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(233, 100%, 30%);
+    align-items: center;
+    width: 1000px;
+}
+.elStat{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(233, 100%, 30%);
+    align-items: center;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.elStatic{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.elThemesSt:hover[data-status="Открыто"] {
+    background-color: #F1F7FE;
+    cursor: pointer;
+}
+
+.elThemesSt div{
+    display: flex;
+}
+.elThemesSt .changeState:hover{
+    color: #001198;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.title_th{
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+.testAnswer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-color: #001198;
+    outline: none;
+}
+
+.testSt{
+    margin: 50px;
+    width: 300px;
+}
+
+.finishButton {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #3e4684;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.timer{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    z-index: 1000; 
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.resultQuestion{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-color: #001198;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.resultAnswer{
+    display: flex;
+    justify-content: space-between;
+}
+.answerRes{
+    margin-top: 20px;
+}
+  
+.theme_info {
+    width: 25%;
+    text-align: center; 
+    margin: 20px;
+}
+.theme_info_ {
+    width: 25%;
+    text-align: left; 
+}
+
+.inputs{
+    margin-left: 40px;
+}
+.inputs input{
+   margin: 20px;
+}
+  
+.subjectInput{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-color: #001198;
+    outline: none;
+}
+
+.add-section{
+    position: fixed;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.newsProfil{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

@@ -1,0 +1,148 @@
+body{
+    /* background-color: #DDE5F4; */
+    background-color: #C1D7FF;
+    font-size: 20px;
+}
+
+.shadow{
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+input, select{
+    border: 1px solid #001198;
+    border-radius: 10px;
+}
+
+input.short, select.short{
+    border: 1px solid #001198;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+}
+input.long, select.long{
+    border: 1px solid #001198;
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+}
+
+textarea{
+    width: 400px;
+    height: 75px;
+    border: 1px solid #001198;
+    border-radius: 10px;
+}
+
+.login input{
+    border: 1px solid #C1D7FF;
+    border-radius: 10px;
+}
+
+.login input[type="text"]{
+    width: 300px;
+    height: 45px;
+}
+
+p{
+    word-wrap: break-word;
+    margin: 0px;
+}
+
+.blueButton{
+    width: 270px;
+}
+
+.blueButton a{
+    width: 300px;
+    /* height: 45px; */
+    background-color: #3e4684;
+    border-radius: 40px;
+    border: 1px solid #f1f7fe;
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.blueButton a:hover{
+    background-color: #f1f7fe;
+    color: #3e4684;
+    border: 1px solid #3e4684;
+}
+
+.form .username{
+    display: flex;
+}
+.page{
+    margin-top: 20px;
+}
+.red{color: red;}
+.yellow{color: rgb(255, 213, 0);}
+.green{color: rgb(0, 199, 0);}
+.blue{color: #001198}
+
+.menu{
+    width: 58px;
+    height: 58px;
+    background: url(../img/menu.png);
+    display: none;
+    position: absolute;
+    top: 940px
+}
+.menu.active{
+    display: block;
+}
+.menu:hover{
+    width: 58px;
+    height: 58px;
+    background: url(../img/menuActiv.png);
+}
+.closeMenu{
+    width: 58px;
+    height: 58px;
+    position: absolute;
+    top: 940px;
+    background: url(../img/closeMenu.png);
+}
+.closeMenu:hover{
+    width: 58px;
+    height: 58px;
+    background: url(../img/closeMenuActive.png);
+}
+
+.line{
+    display: flex;
+    width: 1100px;
+}
+.line div{
+    margin-left: 10px;
+    flex-grow: 1;
+    border-bottom: 1px solid #001198;
+}
+.home{
+    /* width: 70px;
+    height: 40px; */
+    border-radius: 20px;
+    border: 1px solid white;
+    position: absolute;
+    color: white;
+    top: 940px;
+    left: 20px;
+    padding: 10px;
+}
+.home:hover{
+    border: 1px solid #C1D7FF;
+    color: #C1D7FF;
+    cursor: pointer;
+}

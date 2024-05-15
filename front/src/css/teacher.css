@@ -1,0 +1,35 @@
+.newBriefing{
+    margin-left: 30px;
+}
+.newBriefing .form{
+    margin-top: 50px;
+}
+.newBriefing .top div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.newBriefing .top div p{
+    width: 200px;
+}
+.newBriefing .cuestion{
+    margin-top: 50px;
+}
+.newBriefing .cuestion .elQuestion{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+}
+.addQuestion{
+    width: 58px;
+    height: 58px;
+    background: url(../img/add.png);
+}
+.addQuestion:hover{
+    width: 58px;
+    height: 58px;
+    background: url(../img/addActive.png);
+}
+.newBriefing .blueButton{
+    margin: auto;
+}
